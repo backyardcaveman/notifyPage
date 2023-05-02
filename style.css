@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(210, 60%, 98%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: auto;
+    font-family: Plus Jakarta Sans;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    padding: 2rem 2rem 0 2rem;
+    border-radius: 20px;
+    max-width: 40%;
+    box-shadow: 0 0 35px hsl(211, 68%, 94%);
+    margin-bottom: 15px;
+}
+
+/* headings */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-left h3 {
+    font-weight: 800;
+    font-size: 1.7rem;
+    margin-right: 0.8rem;
+}
+
+.header-left p {
+    background-color: hsl(224, 21%, 14%);
+    color: hsl(0, 0%, 100%);
+    padding: 0.2rem .8rem;
+    border-radius: 7px;
+}
+
+.header-right a {
+    cursor: pointer;
+}
+
+/* Unordered List */
+
+.notification-body {
+    list-style-type: none;
+    margin-top: 2rem;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+    padding: 1rem;
+}
+
+.unread {
+    background-color: hsl(210, 60%, 98%);
+    border-radius: 15px;
+}
+
+/* links */
+
+.link-name {
+    margin-right: 5px;
+}
+
+.link-post,
+.link-name {
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.link-name {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.link-post {
+    color: hsl(219, 12%, 42%);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(224, 21%, 14%);
+}
+
+a:visited {
+    color: hsl(219, 14%, 63%);
+}
+
+.link-post {
+    margin-left: 5px;
+}
+
+/* unread notification icon */
+
+.orange-circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: orange;
+    margin-left: .5rem;
+}
+
+/* list item specific stuff */
+
+.private-msg {
+    border: 1px solid hsl(205, 33%, 90%);
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: hsl(219, 12%, 42%);
+}
+
+.kim {
+    display: flex;
+}
+
+.kim-notification {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    max-width: 21.1rem;
+}
+
+.kim-pic {
+    text-align: end;
+}
+
+.notification img {
+    height: 2.8em;
+    margin-right: 1.2rem;
+}
+
+.notification-info {
+    display: flex;
+    align-items: center
+}
+
+.notification-info p {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.notification-time {
+    color: hsl(219, 14%, 63%);
+}
+
+/* grey font hsl(219, 12%, 42%) */
